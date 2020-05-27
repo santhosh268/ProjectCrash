@@ -1,0 +1,26 @@
+nav {
+    background-color: #563d7c;
+    padding: 40px 70px;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items:top right 20;
+    text-align: right;
+}
+nav li{
+    list-style-type:none;
+}
+nav li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 4px 8px;
+}
+nav li a:hover {
+    color: yellow;
+    text-decoration: none;
+}
